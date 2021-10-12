@@ -1,0 +1,94 @@
+/* GENERAL STYLES */
+
+html {
+    font-size: 1rem;                  /* standard is 16 px */
+    background-color: #808080;
+}
+
+body {
+    width: 80vw;
+    margin: 0 auto; /* what does this do? */
+    background-color: #add8e6;
+    padding: 0px 20px 20px 20px; /* space between body contents and body walls */
+    border: 2px solid #0000ff;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid #000000;
+}
+
+h2 {
+    border: 2px solid #000000;
+}
+
+p {
+    border: 2px solid #ff0000;
+    line-height: 1.5;
+}
+
+section {
+    border: 2px solid #ffc0cb;
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* what does this do? */
+    width: 300px;
+}
+
+aside {
+    border: 2px solid #000000;
+}
+
+footer {
+    border: 2px solid #000000;
+}
+
+nav {
+    border: 2px solid #000000;
+}
+
+/* LIST STYLES */
+
+ul {
+    border: 2px solid #ffff00;
+}
+
+ol {
+    border: 2px solid #ffff00;
+}
+
+/* UTILITY STYLES */
+p.new-announcement {
+    color: #000000;
+}
+
+p.old-announcement {
+    color: #808080;
+    border: 2px solid #808080;
+}
+
+/* LINK STYLES */
+a:link {
+    color: #0000FF;
+    background: #BFFF00;
+}
+
+a:visited {
+    color: #0000FF;
+    background: #BFFF00;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #BFFF00;
+    background: #0000FF;
+}
+
+a:active {
+    text-decoration: none;
+    color: #FF0000;
+    background: #663399;
+}
