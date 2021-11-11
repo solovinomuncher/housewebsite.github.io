@@ -5,7 +5,7 @@
 }
 
 img {
-  width: 10vh;
+  width: 20vh;
 }
 
 .logo {
@@ -45,39 +45,9 @@ header {
   text-align: center;
   border: 2px solid #5D6063;
   border-radius: 5px;
-}
-
-.button:link,
-.button:visited {
-  display: block;
-  text-decoration: none;
-
-  color: #FFF;
-  background-color: #5995DA;
-  font-weight: bold;
-  padding: 20px;
-  text-align: center;
-  border: 2px solid #5D6063;
-  border-radius: 5px;
-
-  width: 20vw;
-  margin: 20px auto;
-}
-
-.button:hover,
-.button:visited:hover {
-  color: #FFF;
-  background-color: #76AEED;
-}
-
-.button:active,
-.button:visited:active {
-  color: #FFF;
-  background-color: #5995DA;
-}
-
-#button-2 {
-  background-color: #D55C5F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .calendar {
