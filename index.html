@@ -1,54 +1,44 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta name="author" content="Erick Esqueda">
-        <meta name="description" content="T-House Website">
-        <meta charset="utf-8"> <!--covers nearly all major language characters-->
-        <title>T-House Website</title> <!--title on browser-->
-        <link href="styles/style.css" rel="stylesheet"> <!--link to css sheet-->
-        <!-- link to fonts? -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
-        <header>
-            <h1>T-House Website</h1>
-            <img src="images/house.png" alt="random house picture">
-        </header>
-        <main>
-            <section class="welcome">
-                <h2>Welcome</h2>
-                <p>This is the website for all things T-House related.</p>
-            </section>
-            <section class="announcements">
-                <h2>Announcements</h2>
-                <p class="new-announcement">
-                    Oct 12 2021: Website is now up! Click on the links below to see what's on
-                    here. (I'm a new announcement, so I'm being emphasized.)
-                </p>
-                <p class="old-announcement">
-                    Oct 11 2021: Website's birthday! (I'm an old announcement, so I've been 
-                    grayed out.)
-                </p>
-                <p class="old-announcement">
-                    Oct 01 2021: Fall Quarter 2021.
-                </p>
-            </section>
-            <nav>
-                <h2>Navigation</h2>
-                <ul>
-                    <li><a href="calendar.html">Chores Calendar</a></li>
-                    <li><a href="house-rules.html">House Rules</a></li>
-                    <li><a href="expectations.html">Expectations</a></li>
-                    <li><a href="#">Announcements</a></li>
-                </ul>
-                <!-- button links to pages in site -->
-                <!-- announcements -->
-            </nav>
-        </main>
-        <footer>
-            <p>Joke of the Month: I like getting blown by The Wind.</p>
-        </footer>
-    </body>
-</html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'/>
+    <meta name='viewport'
+          content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+    <title>Taurus House</title>
+    <link rel='stylesheet' href='styles/style0.css'/>
+  </head>
+  <body>
+    <header>
+      <h1>Taurus House</h1>
+      <div class='house-logo'>
+        <img class='logo' src='images/house.png' alt='random house picture'/>
+      </div>
+      <div class='three-bar'>
+        <img class='logo' src='images/house.png' alt='three bars'/>
+      </div>
+    </header>
+    <nav class='menu-container'>
+      <ul class='menu'>
+        <li class='menu-item calendar'>
+          <a class='button' href='#'>CALENDAR</a>
+          <img src='images/calendar-icon.png' alt='calendar'/>
+        </li>
+        <li class='menu-item rules'>
+          <a class='button' href='#'>RULES</a>
+          <img src='images/da-rules.png' alt='rules book'/>
+        </li>
+        <li class='menu-item complaints'>
+          <a class='button' href='#'>COMPLAINTS</a>
+          <img src='images/da-rules.png' alt='rules book'/>
+        </li>
+        <li class='menu-item meetings'>
+          <a class='button' href='#'>MEETINGS</a>
+          <img src='images/calendar-icon.png' alt='calendar'/>
+        </li>
+      </ul>
+    </nav>
+    <footer>
+      <p>Copyright &copy; 2021 by Erick Esqueda. All rights reserved.</p>
+    </footer>
+  </body>
+<html>
