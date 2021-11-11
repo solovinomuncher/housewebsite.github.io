@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 10vh;
+}
+
+.logo {
+  width: 100px;
+  padding: 20px;
+}
+
+header {
+  background-color: #5995DA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.house-logo {
+  order: -1;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  list-style-type: none;
+  width: 48vw;
+  height: 44vh;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+}
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 20vw;
+  margin: 20px auto;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;
+}
+
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;
+}
+
+#button-2 {
+  background-color: #D55C5F;
+}
+
+.calendar {
+  background-color: lightblue;
+}
+
+.rules {
+  background-color: lightgreen;
+}
+
+.complaints {
+  background-color: pink;
+}
+
+.meetings {
+  background-color: lightyellow;
+}
+
+/* desktop styles */
+@media only screen and (min-width: 961px) {
+  .menu-item {
+    width: 400px;
+    height: 44vh;
+  }
+}
