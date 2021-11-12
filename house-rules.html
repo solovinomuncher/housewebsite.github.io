@@ -1,97 +1,115 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta name="author" content="Erick Esqueda">
-        <meta name="description" content="House Rules for T-House">
-        <meta charset="utf-8">
-        <title>House Rules</title>
-        <link href="styles/style.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <h1>House Rules</h1>
-            <img src="images/da-rules.png" alt="da rules">
-        </header>
-        <main>
-            <a href="index.html">Back to Homepage</a>
-            <nav>
-                <h2>FAQ</h2>
-                <ul>
-                    <li><a href="#how-do-dishes-work">How do dishes work?</a></li>
-                    <li><a href="#trash-week">What does it mean when it's my trash week?</a></li>
-                    <li><a href="#oot-trash-cans">What if I can't take the outside trash cans to the curb, since I’ll 
-                        be out of town?</a></li>
-                    <li><a href="#chore-week">What does it mean when it’s my chore week?</a></li>
-                    <li><a href="#oot-chore-week">What if I can’t do my chores, since I’ll be out of town?</a></li>
-                    <li><a href="#chore-fee">I forgot to do my chores! I did them as soon as I could. Do I still have to pay the fee?</a></li>
-                    <li><a href="#visitors">Can I have people over? (COVID Edition)</a></li>
-                    <li><a href="#oot-long-term">If I’m not at home for weeks at a time, what should I do?</a></li>
-                    <li><a href="#group-chat">When do I use the serious group chat?</a></li>
-                    <li><a href="#moving-out">I’m planning on moving out. What should I do?</a></li>
-                    <li><a href="#damage-room">What happens if I leave the room with damage to the walls, paint, and/or carpet?</a></li>
-                    <li><a href="#washer-dryer">I want to wash/dry my clothes, but there are already clothes in the machine. What should I do?</a></li>
-                    <li><a href="#messy-house">The kitchen/living room/dining room is a mess. What can I do to get it cleaned up?</a></li>
-                    <li><a href="#reminders">Reminders</a></li>
-                </ul>
-            </nav>
-            <section id="how-do-dishes-work">
-                <h2>How do dishes work?</h2>
-                <p>When you have dirty dishes, make sure that:</p>
-                <ul>
-                    <li>All the leftovers are stored or thrown in the trash. If food is really smelly (eg fish, rotten food), take out the trash afterwards.</li>
-                    <li>All large pots & pans are washed, hand-dried, and put away.</li>
-                    <li>Most dishware & utensils are washed and left on the dish rack to dry.</li>
-                    <li>All food bits in the sink filter are tossed in the trash.</li>
-                    <li>Leftover dishware (one or two max) can be left on the left of the sink and washed immediately after, the night of, or the morning after.</li>
-                    <li>All your dry dishes and utensils are put away.</li>
-                    <li>Keep forks & spoons with your plates/bowls/cups and wash them together. Don’t leave utensils in the sink alone!</li>
-                </ul>
-            </section>
-            <section id="trash-week">
-                <h2>What does it mean when it's my trash week?</h2>
-                <p>That means, starting from Monday morning to Sunday night, you are responsible for:</p>
-                <ol>
-                    <li>taking the trash and green or recycling bins to the curb on Monday night and bring them back in, and </li>
-                    <li>taking out the kitchen trash and recycling whenever it gets full (and it gets full a couple times in a week, so check often!).</li>
-                </ol>
-            </section>
-            <section id="oot-trash-cans">
-                <h2>What if I can't take the outside trash cans to the curb, since I’ll 
-                    be out of town?</h2>
-                    <p>Ask a housemate to cover for you. You’ll be responsible for next week’s trash instead.</p>
-                    <p>If you forget to take out the trash bins, you’re responsible for next week’s trash as well.</p>
-            </section>
-            <section id="chore-week">
-                <h2>What does it mean when it’s my chore week?</h2>
-                <p>
-                    That means, starting from Monday morning to Sunday night, you and your group (Group 1 or Group 2) 
-                    are responsible for a pre-assigned chore, which is on the OurHome app. When you complete it, mark 
-                    it as complete on OurHome. You can complete it at any time during the week, but not after, or 
-                    else you’ll be charged $32, which will be put towards the next utility bill. 
-                </p>
-            </section>
-            <section id="oot-chore-week">
+  <head>
+    <meta charset="utf-8">
+    <title>House Rules</title>
+    <link rel='shortcut icon' type='image/png' href='images/home-icon.png'/>
+    <link href="styles/style0.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Taurus House</h1>
+      <div class='house-logo'>
+        <img class='logo' src='images/house.png' alt='random house picture'/>
+      </div>
+      <div class='three-bar'>
+        <img class='logo' src='images/house.png' alt='three bars'/>
+      </div>
+    </header>
+    <nav class='menu-container'>
+      <ul class='menu home-faq'>
+        <li class='home-faq'><a href="index.html">Back to Homepage</a></li>
+        <li class='home-faq'><p>Questions? <a href="house-rules.html">FAQ</a></p></li>
+      </ul>
+    </nav>
+    <section class='page-title-container'>
+      <h2 class='page-title'>RULES</h2>
+    </section>
+    <hr/>
+    <main>
+      <nav>
+        <figure>
+          <figcaption>FAQ</figcaption>
+          <nav>
+            <ul class='faq-question-links'>
+              <li class='qs'><a href="#how-do-dishes-work">How do dishes work?</a></li>
+              <li class='qs'><a href="#trash-week">What does it mean when it's my trash week?</a></li>
+              <li class='qs'><a href="#oot-trash-cans">What if I can't take the outside trash cans to the curb, since I’ll
+                  be out of town?</a></li>
+              <li class='qs'><a href="#chore-week">What does it mean when it’s my chore week?</a></li>
+              <li class='qs'><a href="#oot-chore-week">What if I can’t do my chores, since I’ll be out of town?</a></li>
+              <li class='qs'><a href="#chore-fee">I forgot to do my chores! I did them as soon as I could. Do I still have to pay the fee?</a></li>
+              <li class='qs'><a href="#visitors">Can I have people over? (COVID Edition)</a></li>
+              <li class='qs'><a href="#oot-long-term">If I’m not at home for weeks at a time, what should I do?</a></li>
+              <li class='qs'><a href="#group-chat">When do I use the serious group chat?</a></li>
+              <li class='qs'><a href="#moving-out">I’m planning on moving out. What should I do?</a></li>
+              <li class='qs'><a href="#damage-room">What happens if I leave the room with damage to the walls, paint, and/or carpet?</a></li>
+              <li class='qs'><a href="#washer-dryer">I want to wash/dry my clothes, but there are already clothes in the machine. What should I do?</a></li>
+              <li class='qs'><a href="#messy-house">The kitchen/living room/dining room is a mess. What can I do to get it cleaned up?</a></li>
+              <li class='qs'><a href="#reminders">Reminders</a></li>
+            </ul>
+          </nav>
+        </figure>
+
+      </nav>
+    <section id="how-do-dishes-work">
+      <h2>How do dishes work?</h2>
+      <p>When you have dirty dishes, make sure that:</p>
+      <ul>
+        <li>All the leftovers are stored or thrown in the trash. If food is really smelly (eg fish, rotten food), take out the trash afterwards.</li>
+        <li>All large pots & pans are washed, hand-dried, and put away.</li>
+        <li>Most dishware & utensils are washed and left on the dish rack to dry.</li>
+        <li>All food bits in the sink filter are tossed in the trash.</li>
+        <li>Leftover dishware (one or two max) can be left on the left of the sink and washed immediately after, the night of, or the morning after.</li>
+        <li>All your dry dishes and utensils are put away.</li>
+        <li>Keep forks & spoons with your plates/bowls/cups and wash them together. Don’t leave utensils in the sink alone!</li>
+      </ul>
+    </section>
+  <section id="trash-week">
+    <h2>What does it mean when it's my trash week?</h2>
+    <p>That means, starting from Monday morning to Sunday night, you are responsible for:</p>
+    <ol>
+      <li>taking the trash and green or recycling bins to the curb on Monday night and bring them back in, and </li>
+      <li>taking out the kitchen trash and recycling whenever it gets full (and it gets full a couple times in a week, so check often!).</li>
+    </ol>
+  </section>
+  <section id="oot-trash-cans">
+    <h2>What if I can't take the outside trash cans to the curb, since I’ll
+        be out of town?</h2>
+    <p>Ask a housemate to cover for you. You’ll be responsible for next week’s trash instead.</p>
+    <p>If you forget to take out the trash bins, you’re responsible for next week’s trash as well.</p>
+  </section>
+  <section id="chore-week">
+    <h2>What does it mean when it’s my chore week?</h2>
+    <p>
+        That means, starting from Monday morning to Sunday night, you and your group (Group 1 or Group 2)
+        are responsible for a pre-assigned chore, which is on the OurHome app. When you complete it, mark
+        it as complete on OurHome. You can complete it at any time during the week, but not after, or
+        else you’ll be charged $32, which will be put towards the next utility bill.
+    </p>
+  </section>
+  <section id="oot-chore-week">
                 <h2>What if I can’t do my chores, since I’ll be out of town?</h2>
                 <p>Complete the chores earlier in the week or ask a housemate to cover you.</p>
                 <p>
-                    If you don’t do your chores for the week (e.g. any housemate notices floor/counters/rags are dirty 
-                    on Monday morning), a Chores fee of $32 will be charged to you via Venmo, which will go towards 
+                    If you don’t do your chores for the week (e.g. any housemate notices floor/counters/rags are dirty
+                    on Monday morning), a Chores fee of $32 will be charged to you via Venmo, which will go towards
                     the utility bills.
                 </p>
             </section>
             <section id="chore-fee">
-                <h2>I forgot to do my chores! I did them as soon as I could. Do I still 
+                <h2>I forgot to do my chores! I did them as soon as I could. Do I still
                     have to pay the fee?</h2>
                 <p>Yes.</p>
             </section>
             <section id="visitors">
                 <h2>Can I have people over? (COVID Edition)</h2>
                 <p>
-                    Preferably vaccinated, but if not, best to let the housemates know beforehand in case any take issue 
-                    with it. If it’s one person staying for less than a day or so, and you know they’ve been taking 
+                    Preferably vaccinated, but if not, best to let the housemates know beforehand in case any take issue
+                    with it. If it’s one person staying for less than a day or so, and you know they’ve been taking
                     proper precautions, sure. If more people/more days, best to let the housemates know beforehand.
                 </p>
             </section>
@@ -112,50 +130,50 @@
                 <h2>I’m planning on moving out. What should I do?</h2>
                 <p>Let Erick know at least 30 days in advance, preferably as soon as you know.</p>
                 <p>
-                    On move-out day, take out all your trash & take all your belongings with you, 
+                    On move-out day, take out all your trash & take all your belongings with you,
                     and leave the room empty for the new housemate. Leave the house key in the room.
                 </p>
             </section>
             <section id="damage-room">
-                <h2>What happens if I leave the room with damage to the walls, paint, 
+                <h2>What happens if I leave the room with damage to the walls, paint,
                     and/or carpet?</h2>
                 <p>Repair costs will be deducted from your deposit.</p>
             </section>
             <section id="washer-dryer">
-                <h2>I want to wash/dry my clothes, but there are already clothes in the 
+                <h2>I want to wash/dry my clothes, but there are already clothes in the
                     machine. What should I do?</h2>
-                <p>Message the person (name on washer/dryer) to have the person take their clothes out. 
+                <p>Message the person (name on washer/dryer) to have the person take their clothes out.
                 </p>
             </section>
             <section id="messy-house">
-                <h2>The kitchen/living room/dining room is a mess. What can I do to get 
+                <h2>The kitchen/living room/dining room is a mess. What can I do to get
                     it cleaned up?</h2>
                 <p>
                     Remind the housemates to clean up after themselves (quickly wipe down counters & stovetop when
-                    finished, wash all your dishes, etc.) Point out specific messes (with a picture) on the 
-                    serious group chat. 
+                    finished, wash all your dishes, etc.) Point out specific messes (with a picture) on the
+                    serious group chat.
                 </p>
             </section>
             <aside id="reminders">
                 <h2>Reminders</h2>
                 <p>
-                    There should be very little clutter and trash on the kitchen table or counters at the end of the 
+                    There should be very little clutter and trash on the kitchen table or counters at the end of the
                     day! Clean up after yourselves, throw away trash and put your things away when you’re done.
                 </p>
                 <p>
-                    When you use ice cubes from ice trays, try to use the tray with the least amount of ice first. 
+                    When you use ice cubes from ice trays, try to use the tray with the least amount of ice first.
                     When the tray runs out, fill it up and use the next tray. DON’T leave near-empty trays behind!
                 </p>
                 <p>
-                    Always keep the garage hallway door closed. For better insulation and no bugs/mosquitos going 
+                    Always keep the garage hallway door closed. For better insulation and no bugs/mosquitos going
                     into the house.
                 </p>
                 <p>
-                    All lights should be turned OFF when no longer in use. Turn on when you’re the first, turn off 
+                    All lights should be turned OFF when no longer in use. Turn on when you’re the first, turn off
                     when you’re the last. Lower electric bill!
                 </p>
                 <p>
-                    When washing/drying clothes, set timers to be able to move your clothes as soon as you can. 
+                    When washing/drying clothes, set timers to be able to move your clothes as soon as you can.
                     Other people might need to wash/dry as well!
                 </p>
                 <p>
@@ -163,6 +181,8 @@
                 </p>
             </aside>
         </main>
-        <footer></footer>
+        <footer>
+          <p>Copyright &copy; 2021 by Erick Esqueda. All rights reserved.</p>
+        </footer>
     </body>
 </html>

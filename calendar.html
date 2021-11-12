@@ -1,42 +1,66 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta name="author" content="Erick Esqueda">
-        <meta name="description" content="Calendar">
-        <meta charset="utf-8">
-        <title>Calendar</title>
-        <link href="styles/style-calendar.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <h1>Calendar</h1>
-        </header>
-        <main>
-            <a href="index.html">Back to Homepage</a>
-            <section>
-                <h2>Calendar</h2>
-                <img id="calendar" src="images/current-calendar.jpg" alt="current calendar">
-            </section>
-            <section>
-                <h2>Notes</h2>
-                <p>Group 1:</p>
-                <ul>
-                    <li>Erick</li>
-                    <li>Omar</li>
-                    <li>Javier</li>
-                </ul>
-                <p>Group 2:</p>
-                <ul>
-                    <li>Oi</li>
-                    <li>Eddie</li>
-                    <li>Ashley</li>
-                    <li>Charyne</li>
-                </ul>
-                <p>Questions? <a href="house-rules.html">FAQ</a></p>
-            </section>
-        </main>
-    </body>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Calendar</title>
+    <link rel='shortcut icon' type='image/png' href='images/home-icon.png'/>
+    <link href="styles/style0.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Taurus House</h1>
+      <div class='house-logo'>
+        <img class='logo' src='images/house.png' alt='random house picture'/>
+      </div>
+      <div class='three-bar'>
+        <img class='logo' src='images/house.png' alt='three bars'/>
+      </div>
+    </header>
+    <nav class='menu-container'>
+      <ul class='menu home-faq'>
+        <li class='home-faq'><a href="index.html">Back to Homepage</a></li>
+        <li class='home-faq'><p>Questions? <a href="house-rules.html">FAQ</a></p></li>
+      </ul>
+    </nav>
+    <section class='page-title-container'>
+      <h2 class='page-title'>CALENDAR</h2>
+    </section>
+    <hr/>
+    <main>
+      <section class='group-container'>
+        <figure class='group'>
+          <figcaption>Group 1</figcaption>
+          <ul>
+            <li>Erick</li>
+            <li>Omar</li>
+            <li>Javier</li>
+            <li>-------</li>
+          </ul>
+        </figure>
+        <figure class='group'>
+          <figcaption>Group 2</figcaption>
+          <ul>
+            <li>Oi</li>
+            <li>Eddie</li>
+            <li>Ashley</li>
+            <li>Charyne</li>
+          </ul>
+        </figure>
+      </section>
+      <section class='calendar-actual'>
+        <iframe src="https://calendar.google.com/calendar/embed?src=vhhtm4ovu8atdu7ak5v5a3590o%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+                style="border: 0"
+                width="800"
+                height="600"
+                frameborder="0"
+                scrolling="no"></iframe>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2021 by Erick Esqueda. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
