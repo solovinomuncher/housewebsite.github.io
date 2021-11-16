@@ -34,10 +34,11 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .menu-item {
-  list-style-type: none; /* redundant w/ li rule below? */
+  list-style-type: none;
   width: 48vw;
   height: 44vh;
   font-weight: bold;
@@ -107,10 +108,6 @@ footer {                  /* keeps copyright on bottom-left screen */
   border: 1px solid black;
 }
 
-li {
-  list-style-type: none;
-}
-
 .calendar-actual {
   background-color: #5995DA;
   border: 1px solid black;
@@ -137,10 +134,17 @@ li {
 
 /* rules styles */
 
+.faq-cap {
+  text-align: center;
+}
+
 .faq-question-links {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  list-style-type: none;
 }
 
 .qs {
@@ -150,6 +154,31 @@ li {
   margin: 10px;
 }
 
+.qa-container {
+  border: 1px solid purple;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.qs-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  margin: 10px;
+  height: 20vh;
+}
+
+.as-box {
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 20px;
+  height: 60vh;
+}
+
 /* misc styles */
 
 /* desktop styles */
@@ -157,8 +186,5 @@ li {
   .menu-item {
     width: 400px;
     height: 44vh;
-  }
-  .home-faq-img {
-    asdf
   }
 }
