@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.2em;
 }
 
 img {
@@ -59,6 +60,7 @@ header {
 .page-title {
   background-color: lightblue;
   padding: 20px;
+  border-radius: 10px;
 }
 
 hr {
@@ -68,12 +70,15 @@ hr {
 
 iframe {
   height: 50vh;
+  width: 90vw;
 }
 
-footer {                  /* keeps copyright on bottom-left screen */
-  position: absolute;
-  left: 0;
-  bottom: 2px;
+p {
+  padding: 0 0 10px 0;
+}
+
+li {
+  padding: 0 0 3px 0;
 }
 
 /* index link styles */
@@ -118,14 +123,14 @@ footer {                  /* keeps copyright on bottom-left screen */
 }
 
 .return-home {
-  background-color: lightblue;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .return-home-img {
-  background-color: grey;
+  border: 1px solid black;
+  background-color: #CCCCFF;
   width: 20vw;
   margin: 10px;
   padding: 10px;
@@ -148,35 +153,41 @@ footer {                  /* keeps copyright on bottom-left screen */
 }
 
 .qs {
-  background-color: lightgray;
+  background-color: #FFFFCC;
   border: 1px solid black;
   padding: 20px;
   margin: 10px;
+  border-radius: 100px;
+  text-align: center;
 }
 
 .qa-container {
   border: 1px solid purple;
-  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .qs-box {
+  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
   margin: 10px;
+  padding: 20px;
   height: 20vh;
+  border-radius: 5px;
 }
 
 .as-box {
   border: 1px solid blue;
   margin: 10px;
   padding: 20px;
-  height: 60vh;
+  height: 50vh;
+  border-radius: 5px;
 }
 
 /* misc styles */
